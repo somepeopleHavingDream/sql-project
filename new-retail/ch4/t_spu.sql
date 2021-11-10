@@ -15,3 +15,6 @@ create table t_spu(
     index idx_saleable(saleable),
     index idx_valid(valid)
 ) comment = '产品表';
+
+insert into t_spu(title, category_id, brand_id, spg_id, saleable, valid, create_time, last_update_time)
+values ('小米9', 3, 3, 10001, 1, 1, now(), now());
