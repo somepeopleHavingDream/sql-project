@@ -1,3 +1,4 @@
+drop table if exists t_customer_address;
 create table t_customer_address(
     id bigint unsigned primary key auto_increment comment '主键',
     customer_id bigint unsigned not null comment '客户Id',

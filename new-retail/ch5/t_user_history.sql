@@ -1,0 +1,1 @@
+create table t_user_history like t_user;

@@ -1,0 +1,1 @@
+pt-online-schema-change --user=user1 --password=123456 --host=localhost --charset=utf8 --alter="add column is_deleted boolean not null default false comment '是否逻辑删除'" D=new_retail,t=t_user --print --execute
